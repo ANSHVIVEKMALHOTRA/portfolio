@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ansh Portfolio</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <main>
+
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/ansh malhothra (2)fcd.jpg" alt="ANSH MALHOTRA" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name">Ansh Malhotra</h1>
+
+          <p class="title">Computer science student at National<br>Institute of Technology Karnataka</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ansh.vivekyog@gmail.com" class="contact-link">ansh.vivekyog@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 7483954676" class="contact-link">+91 7483954676</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">D.O.B.</p>
+
+              <time datetime="1982-06-23">02-Aug-2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>J.P Nagar, Bangalore-560078, Karnataka, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+    </aside>
+
+
+
+
+    <div class="main-content">
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+
+          <p style="font-size:40px; color: #ceb15a;">
+            <b>Hi!! I am <br>
+              Ansh Malhotra</b>
+          </p>
+
+          <p>
+            Highly motivated computer science graduate with a passion for building innovative software solutions. Proven
+            ability to translate complex problems into elegant code through strong technical skills and proficiency in
+            project development. Thrive in both independent and collaborative environments, fostering effective
+            communication and teamwork to deliver high-quality results. Committed to continuous learning to stay updated
+            of the latest industry trends and technologies.<br>
+          </p>
+
+
+          <header>
+            <h2 class="h2 article-title">What I know</h2>
+          </header>
+          <section class="about-text">
+
+            <p style="font-size:20px; color: #ceb15a;">Programming skills : </p>
+            <p><i> C++, C, Data Structures, Algorithms, MySQL, Flutter, Dart, OpenCV, HTML, CSS, Verilog,
+                React(Beginner).</i></p>
+            <p style="font-size:20px; color: #ceb15a;">Other Technological skills : </p>
+            <p><i>GitHub, Git, Graphic Design(Adobe Photoshop/Illustrator), Figma, Logisim, Firebase database,
+                Google collab, Jflap, Wire shark, LaTeX(Overleaf). </i></p>
+          </section>
+
+
+
+
+
+
+          <!-- <section class="Skills">
+
+            <h3 class="h2 testimonials-title">What I know</h2>
+
+
+              
+              <ul class="testimonials-list has-scrollbar">
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title> Programming</h4>
+                    <p>C++, C, Data Structures, Algorithms, MySQL, Flutter, Dart, OpenCV, HTML, CSS, Verilog,
+                      React(Beginner).
+                    </p>
+                  </div>
+
+
+                  <div class="content-card" data-testimonials-item>
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>Other Technologies</h4>
+                    <p>GitHub, Git, Graphic Design(Adobe Photoshop/Illustrator), Figma, Logisim, Firebase database, Google collab, Jflap, Wire shark, LaTeX(Overleaf).
+                    </p>
+                  </div>
+                </li> -->
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+              <div class="modal-content">
+              </div>
+            </section>
+          </div>
+      </article>
+
+
+
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National Institute of Technology, Karnataka</h4>
+
+              <span>2022 — 2026</span>
+
+              <p class="timeline-text">
+                Batchlor of Techology<br>Computer Science and Engineering
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Narayana Institute</h4>
+
+              <span>2020 - 2022</span>
+
+              <p class="timeline-text">
+                Science stream<br>
+                Subjects : Physics, Chemistry, Maths, and Computers.
+              </p>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KMC hospital APP </h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                <b><i>APP TEAM LEAD</i></b><br>
+                Developing a mobile app for doctors and patients to research and analyze personalized notched music
+                training (TMNMT)
+                using Indian classical music for tinnitus treatment.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Project and Liscences</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Artificial intelligence and machine learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Computer science core</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Design</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>artificial intelligence and machine learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>computer science core</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>design</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          
+
+
+
+          
+          <!-- ----------------------------------------------------------------------------------- -->
+          <ul class="project-list">
+
+            
+
+
+            <!-- APP dev -->
+
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/KMC.webp" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KMC hospital App</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Telephone directory.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NIT Karnataka, Telephone directory App</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+
+
+
+            <!-- Ai/ml  -->
+
+
+
+
+
+            <li class="project-item  active" data-filter-item data-category="artificial intelligence and machine learning">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/HCR.png" alt="HCR" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Handwritten Character Recognization </h3>
+
+                <p class="project-category">Ai/Ml</p>
+
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+            <!-- ------------core ------------------------------- -->
+
+            <li class="project-item  active" data-filter-item data-category="computer science core">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/OS.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Operating System simulator</h3>
+
+                <p class="project-category">Core Computer Science</p>
+
+              </a>
+            </li>
+
+
+
+
+            <li class="project-item  active" data-filter-item data-category="computer science core">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Heatwatch.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Heatwatch - temperature monitoring System</h3>
+
+                <p class="project-category">Core Computer Science</p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="computer science core">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Course registeration (Database systems)</h3>
+
+                <p class="project-category">Core Computer Science</p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="computer science core">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ws.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dynamic ARP Inspection: Strengthening Network Security through MAC
+                  Address Validation</h3>
+
+                <p class="project-category">Research (Not published yet)</p>
+
+              </a>
+            </li>
+
+<!-- web dev -->
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ISTE code - An Online Coding Platform</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>   
+
+
+            <!-- design  -->
+
+
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/uxui.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ux/Ui prototyping</h3>
+
+                <p class="project-category">Design</p>
+
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+
+        <section class="Contact">
+
+          <h2 class="h2 form-title">Contact Me</h2>
+
+          <h2 style="color: #ceb15a;">Phone</h2>
+          <div class="contact-info">
+            <a href="tel:+91 7483954676" class="contact-link">+91 7483954676</a><br><br>
+          </div>
+
+          <h2 style="color: #ceb15a;">Email</h2>
+          <div class="contact-info">
+            <a href="mailto:ansh.vivekyog@gmail.com" class="contact-link">ansh.vivekyog@gmail.com</a><br><br>
+          </div>
+
+          <h2 style="color: #ceb15a;">Linkedin</h2>
+          <div class="contact-info">
+            <a href="https://www.linkedin.com/in/anshvivekmalhotra/" class="contact-link">Click to Connect</a><br><br>
+          </div>
+
+          <h2 style="color: #ceb15a;">GitHub</h2>
+          <div class="contact-info">
+            <a href="https://github.com/ANSHVIVEKMALHOTRA" class="contact-link">Here's my GitHub</a><br><br>
+          </div>
+
+          <h2 style="color: #ceb15a;">GitHub</h2>
+          <div class="contact-info">
+            <p style="color: #FFFFFf;">6th Phase, J.P. nagar, Bangalore, Karnataka, 560078.</p>
+          </div>
+
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
